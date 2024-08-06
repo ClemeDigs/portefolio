@@ -30,6 +30,7 @@ h1 {
 .banner__right {
     order: 1;
     display: flex;
+    position: relative;
 }
 
 .img__banner {
@@ -39,6 +40,16 @@ h1 {
     width: 100%;
     height: auto;
     border-radius: 50px;
+}
+
+.img__banner-2 {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 
@@ -64,6 +75,6 @@ h1 {
 
     .img__banner {
         min-width: 300px;
-        transition: all 2s;
+        transition: all 0.5s;
     }
 }

@@ -1,5 +1,5 @@
 import imgFemmeColor from '../img/femme-color.png';
-import imgFemmeColor from '../img/femme-color-02.png';
+import imgFemmeColor2 from '../img/femme-color-02.png';
 import imgFemmeDark from '../img/femme-dark-01.png';
 import imgFemmeDark2 from '../img/femme-dark-02.png';
 import imgFemmeClassic from '../img/femme-classique.png';
@@ -24,6 +24,7 @@ btnSwitchTheme.addEventListener('click', () => {
         } else if (themeStylesheet.getAttribute('href') === './assets/css/themeDark/main.css') {
             themeStylesheet.setAttribute('href', './assets/css/themeClassic/main.css');
             imgBanner.setAttribute('src', imgFemmeClassic);
+            imgBanner2.setAttribute('src', imgFemmeClassic);
         } else {
             themeStylesheet.setAttribute('href', './assets/css/themeColor/main.css');
             imgBanner.setAttribute('src', imgFemmeColor);
